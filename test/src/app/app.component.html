@@ -1,0 +1,40 @@
+
+
+<div id="body">
+
+  <nav class="navbar navbar-expand-md navbar-dark navbar-custom bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="https://open-range-org.github.io/#/home"><img src="../assets/openorglogo.png" style="height: 25px;margin-top: -10px;"/></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+  <div class="col-12 float-start">
+<div class="content mt-3" role="main">
+  <div class="col-12 text-center">
+    <h1><img src="../assets/CsvGrape.png" style="height: 50px; background-color: #dfdfdf; border-radius: 40px;border: 1px solid #cacaca;padding: 5px;"/> Csv Grape demo</h1>
+  </div>
+
+    <div class="col-12 mt-5 p-5 ">
+      <div class="col-8 form float-start mt-3 left">
+        <input type="file" class="form-control" name="file"  id="validatedCustomFile" required multiple="multiple" (change)="onFileSelected($event)"/>
+      </div>
+      <div class="col-2 form float-start mt-3 ps-3 left">
+        <button type="button"  class="form-control btn btn-warning">Upload</button>
+      </div>
+      <div class="col-10 form float-start mt-3 ps-3 left">
+        <textarea style="height:200px;width: 80%;" >
+            {{csvJsonAndMetaDatatext}}
+        </textarea>
+      </div>
+    </div>
+</div>
+</div>
+
+
+
+
+</div>
+
