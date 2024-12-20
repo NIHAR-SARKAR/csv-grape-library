@@ -1,0 +1,50 @@
+
+.socials a{
+  text-decoration: none;
+  color: #229977;
+  font-size: 20px;
+  margin: 5px;
+}
+.socials a:hover{
+  color: #999;
+}
+.socials{
+  padding: 10px 50px;
+}
+.float-right{
+  margin-left: auto;
+  order: 2;
+}
+
+.top-nav{
+  border-bottom: 1px solid #229977;
+  box-shadow: 2px 2px 10px rgba(34, 153, 119, 0.5);
+  z-index: 99;
+}
+.navbar-custom a,.footer-custom a{
+  color: #229977;
+  text-decoration: none;
+  margin: 0px 5px;
+  z-index: 99;
+}
+.navbar-toggler
+.bottom-nav{
+  position: fixed;
+  z-index: 99;
+  right: 50px;
+  bottom: 0px;
+}
+.nav-bar{
+  background-color: #333;
+}
+.icon-square i{
+  font-size: 32px;
+}
+.footer-custom a{
+  color: #229977;
+  text-decoration: none;
+  margin: 0px 5px;
+  z-index: 99;
+}
+
+
