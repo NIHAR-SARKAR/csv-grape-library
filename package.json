@@ -1,0 +1,16 @@
+{
+  "name": "csv-grape",
+  "version": "1.0.0",
+  "description": "npm package to parse and load csv files",
+  "main": "lib/index.js",
+  "types": "lib",
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nihar Sarkar",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.1.6"
+  }
+}
